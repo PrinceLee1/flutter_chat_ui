@@ -77,3 +77,50 @@ List<Message> chats = [
       isLiked: false,
       unread: true),
 ];
+
+//EXAMPLE MESSAGES IN CHAT SCREEN
+List<Message> messages = [
+  Message(
+      sender: james,
+      time: '12:30am',
+      text: 'Hey,how\'s it going? What did you do today?',
+      isLiked: true,
+      unread: false),
+  Message(
+      sender: currentUser,
+      time: '11:30am',
+      text: 'She said she\'s gonna turn up.',
+      isLiked: false,
+      unread: true),
+  Message(
+      sender: currentUser,
+      time: '5:30pm',
+      text: 'Good day love❤️❤️',
+      isLiked: true,
+      unread: true),
+  Message(
+      sender: joyner,
+      time: '2:30pm',
+      text: 'Joyner what do you want to do today?',
+      isLiked: false,
+      unread: true),
+  Message(
+      sender: currentUser,
+      time: '5:30pm',
+      text: 'I see you later dear😍',
+      isLiked: false,
+      unread: true),
+  Message(
+      sender: prince,
+      time: '5:30pm',
+      text:
+          'Bro we got task to deliver tomorrow, Kola is waiting already🤷🏼‍♂️',
+      isLiked: true,
+      unread: true),
+  Message(
+      sender: currentUser,
+      time: '5:30pm',
+      text: 'Confidence, turn your laptop.Show me how to inspect element😁',
+      isLiked: true,
+      unread: true),
+];
